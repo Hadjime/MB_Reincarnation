@@ -40,12 +40,12 @@ public class PlayerDriver : MonoBehaviour {
 			GetComponent<Rigidbody2D>().velocity = new Vector2 (0, moveVertical * maxSpeed * Time.deltaTime);
 		}
 		//если нажали клавишу для перемещения вправо, а персонаж направлен влево
-		if(moveHorizontal > 0 && !isFacingRight)
+		/*if(moveHorizontal > 0 && !isFacingRight)
 			//отражаем персонажа вправо
 			Flip();
 		//обратная ситуация. отражаем персонажа влево
 		else if (moveHorizontal < 0 && isFacingRight)
-			Flip();
+			Flip();*/
 		
 	}
 	

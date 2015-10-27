@@ -21,18 +21,56 @@ Loading D:\Unity\Project\MB_Reincarnation\exe\MB_Reincarnation_Data\Managed\Unit
 Platform assembly: D:\Unity\Project\MB_Reincarnation\exe\MB_Reincarnation_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading D:\Unity\Project\MB_Reincarnation\exe\MB_Reincarnation_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: D:\Unity\Project\MB_Reincarnation\exe\MB_Reincarnation_Data\Managed\System.Core.dll (this message is harmless)
-- Completed reload, in  0.083 seconds
+- Completed reload, in  0.080 seconds
+Initialize engine version: 5.2.1f1 (44735ea161b3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 10.1]
+    Renderer: NVIDIA GeForce 210  (ID=0xa65)
+    Vendor:   NVIDIA
+    VRAM:     466 MB
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Unity\Project\MB_Reincarnation\exe\MB_Reincarnation_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Unity\Project\MB_Reincarnation\exe\MB_Reincarnation_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Unity\Project\MB_Reincarnation\exe\MB_Reincarnation_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\Unity\Project\MB_Reincarnation\exe\MB_Reincarnation_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Unity\Project\MB_Reincarnation\exe\MB_Reincarnation_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Unity\Project\MB_Reincarnation\exe\MB_Reincarnation_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Unity\Project\MB_Reincarnation\exe\MB_Reincarnation_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading D:\Unity\Project\MB_Reincarnation\exe\MB_Reincarnation_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: D:\Unity\Project\MB_Reincarnation\exe\MB_Reincarnation_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading D:\Unity\Project\MB_Reincarnation\exe\MB_Reincarnation_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: D:\Unity\Project\MB_Reincarnation\exe\MB_Reincarnation_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Unity\Project\MB_Reincarnation\exe\MB_Reincarnation_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Unity\Project\MB_Reincarnation\exe\MB_Reincarnation_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Unity\Project\MB_Reincarnation\exe\MB_Reincarnation_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Unity\Project\MB_Reincarnation\exe\MB_Reincarnation_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.073 seconds
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
 <RI> Input initialized.
 <RI> Initialized touch support.
+<RI> Initialized touch support.
 Platform assembly: D:\Unity\Project\MB_Reincarnation\exe\MB_Reincarnation_Data\Managed\System.dll (this message is harmless)
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: d10 -> priority: 1 
+  Thread -> id: bf4 -> priority: 1 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.274822 ms
+UnloadTime: 0.517276 ms
 
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 317.
-Total: 0.253351 ms (FindLiveObjects: 0.014864 ms CreateObjectMapping: 0.014533 ms MarkObjects: 0.191582 ms  DeleteObjects: 0.032040 ms)
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 309.
+Total: 0.207769 ms (FindLiveObjects: 0.014864 ms CreateObjectMapping: 0.014864 ms MarkObjects: 0.173086 ms  DeleteObjects: 0.004624 ms)
+
+Platform assembly: D:\Unity\Project\MB_Reincarnation\exe\MB_Reincarnation_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 738 -> priority: 1 
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.037870 ms
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 298.
+Total: 0.197199 ms (FindLiveObjects: 0.014864 ms CreateObjectMapping: 0.016185 ms MarkObjects: 0.161525 ms  DeleteObjects: 0.004294 ms)
 
