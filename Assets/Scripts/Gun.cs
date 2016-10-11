@@ -14,7 +14,7 @@ public class Gun : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate ()
 	{
-		Debug.Log (GameObject.Find ("Red_man_0").GetComponent<Rigidbody2D> ().transform.rotation.eulerAngles.z);
+		//Debug.Log (GameObject.Find ("Red_man_0").GetComponent<Rigidbody2D> ().transform.rotation.eulerAngles.z);
 		if (Input.GetKeyDown(KeyCode.LeftControl))
 		{
 			OnKeyCtrl ();
@@ -23,35 +23,39 @@ public class Gun : MonoBehaviour {
 
 	void OnKeyCtrl()
 	{
-		GameObject newBullet = Instantiate (bullet);
+		
 
 
 		if (GameObject.Find ("Red_man_0").GetComponent<Rigidbody2D> ().transform.rotation.eulerAngles.z == 0)
 		{
-			//bullet.transform.position = new Vector2 (transform.position.x + 0.2f, transform.position.y);
-			//newBullet.GetComponent<Rigidbody2D> ().velocity = new Vector2 (10, 0);
+			GameObject newBullet = Instantiate (bullet);
+			newBullet.transform.position = new Vector2 (target.transform.position.x + 0.2f, target.transform.position.y);
+			newBullet.GetComponent<Rigidbody2D> ().velocity = new Vector2 (10, 0);
 
 			//Debug.Log(transform.localPosition.y);
 		}
 		if (GameObject.Find ("Red_man_0").GetComponent<Rigidbody2D> ().transform.eulerAngles.z == 180)
 		{
-			//bullet.transform.position = new Vector2 (target.transform.position.x, target.transform.position.y);
-			//newBullet.GetComponent<Rigidbody2D> ().velocity = new Vector2 (-10, 0);
+			GameObject newBullet = Instantiate (bullet);
+			newBullet.transform.position = new Vector2 (target.transform.position.x, target.transform.position.y);
+			newBullet.GetComponent<Rigidbody2D> ().velocity = new Vector2 (-10, 0);
 			//Debug.Log("Popali v uslovie");
 		}
 		if (GameObject.Find ("Red_man_0").GetComponent<Rigidbody2D> ().transform.eulerAngles.z == 90)
 		{
-			//bullet.transform.position = new Vector2 (target.transform.localPosition.x, target.transform.position.y);
-			//newBullet.GetComponent<Rigidbody2D> ().velocity = new Vector2 (0, 10);
+			GameObject newBullet = Instantiate (bullet);
+			newBullet.transform.position = new Vector2 (target.transform.position.x, target.transform.position.y);
+			newBullet.GetComponent<Rigidbody2D> ().velocity = new Vector2 (0, 10);
 			//Debug.Log("Popali v uslovie");
 		}
-		if (GameObject.Find ("Red_man_0").GetComponent<Rigidbody2D> ().transform.eulerAngles.z == -90)
+		if (GameObject.Find ("Red_man_0").GetComponent<Rigidbody2D> ().transform.eulerAngles.z == 270)
 		{
-			//bullet.transform.position = new Vector2 (target.transform.position.x, target.transform.position.y);
-			//newBullet.GetComponent<Rigidbody2D> ().velocity = new Vector2 (0, -10);
-			//Debug.Log("Popali v uslovie");
+			GameObject newBullet = Instantiate (bullet);
+			newBullet.transform.position = new Vector2 (target.transform.position.x, target.transform.position.y);
+			newBullet.GetComponent<Rigidbody2D> ().velocity = new Vector2 (0, -10);
+			//Debug.Log(target.transform.position.x);
 		}
-		Debug.Log (target.transform.position.y);
+		//Debug.Log (target.transform.position.y);
 
 	}
 }
